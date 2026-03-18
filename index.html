@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/Favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Ayush Yadav | Developer</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="nav-logo">
+            <h1>Ayush.Dev</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-bars-staggered mobile-menu" onclick="{menuBtn()}"></i>
+        </div>
+
+    </nav>
+    <div class="mobile-nav closed-menu"><span><i class="fa-solid fa-xmark" onclick="{menuBtn()}"></i></span>
+        <ul>
+            <li><a href="#hero" onclick="{menuBtn()}">Home</a></li>
+            <li><a href="#about" onclick="{menuBtn()}">About</a></li>
+            <li><a href="#project" onclick="{menuBtn()}">Projects</a></li>
+            <li><a href="#contact" onclick="{menuBtn()}">Contact</a></li>
+        </ul>
+    </div>
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="content">
+                <div class="hero-main">
+                    <div class="hero-txt">
+                        <h1>Front-End React Developer</h1>
+                        <img src="assets/waving.1bae5fcfb51082b5c2b4.png" alt="waving_hand">
+                        <p>
+                            Hi, I'm Ayush. A passionate Front-end Developer based in Bhopal,
+                            Madhya Pradesh. ⚡
+                        </p>
+                        <span>
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </span>
+                    </div>
+                    <div class="hero-img"></div>
+                </div>
+                <div class="skills">
+                    <p>Technology</p>
+                    <div class="logos">
+                        <ul>
+                            <li>
+                                <img src="assets/logos/html-5-logo-svgrepo-com.svg" alt="html" title="HTML" />
+                            </li>
+                            <li><img src="assets/logos/css-3-svgrepo-com.svg" alt="css" title="CSS" /></li>
+                            <li>
+                                <img src="assets/logos/js-official-svgrepo-com.svg" alt="js" title="JavaScript" />
+                            </li>
+                            <li><img src="assets/logos/react-svgrepo-com.svg" alt="React" title="React" /></li>
+                            <li>
+                                <img src="assets/logos/codeigniter-svgrepo-com.svg" alt="php" title="PHP Codeigniter" />
+                            </li>
+                            <li><img src="assets/logos/figma-svgrepo-com.svg" alt="figma" title="Figma" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <div class="about-content">
+                    <div class="about-img"><img src="assets/def.webp" alt="image"></div>
+                    <div class="about-info">
+                        <div class="about-txt">
+                            <h4>about</h4>
+                            <h3>Hey, I'm an Front-End Developer</h3>
+                            <p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, PHP Codeigniter. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic & engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications</p>
+                            <a href="#" download="AyushCV"><button>Downlode CV</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="project" class="project">
+        <div class="container">
+            <div class="project-container">
+                <p>Portfolio</p>
+                <h3>Demonstrating my skills and dedication through a portfolio of impactful work</h3>
+                <div class="project-grid">
+                    <div class="protfolio-box pb-1">
+                        <div class="project-image"><img src="assets/rentme-home.webp" alt="image">
+                        </div>
+                        <div class="project-about">
+                            <h4>Rent Me 🛒</h4>
+                            <p>A Beautiful and Minimal Looking E-Commerce Rental Website Allows You to Borrow a Wide Varity Thing Anytime From Your Native Place</p>
+                            <span class="stack">
+                                <p>React</p>
+                                <p>redux</p>
+                            </span>
+                            <span class="link">
+                                <a href="#" target="_blank">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="#" target="_blank">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square link-icon"></i></i></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="protfolio-box pb-2">
+                        <div class="project-image">
+                            <img src="assets/krishna-classes.webp" alt="image">
+                        </div>
+                        <div class="project-about">
+                            <h4>Krishna Classes 📖</h4>
+                            <p>A Coaching Institute Website For Managing and Providing Student Progress Report.Also Provide info About Upcomming Courses </p>
+                            <span class="stack">
+                                <p>PHP</p>
+                                <p>Bootstrap</p>
+                            </span>
+                            <span class="link">
+                                <a href="#" target="_blank">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="#"target="_blank">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square link-icon"></i></i></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="protfolio-box pb-1">
+                        <div class="project-image">
+                            <img src="assets/Royal-Furniture.webp" alt="">
+                        </div>
+                        <div class="project-about">
+                            <h4>Royal Furniture 🪵</h4>
+                            <p>An E-Commerce Website Offers a Wide Varity of Wooden Furniture for Decorating your Houses</p>
+                            <span class="stack">
+                                <p>Html</p>
+                                <p>CSS</p>
+                                <p>JavaScript</p>
+                            </span>
+                            <span class="link">
+                                <a href="#" target="_blank">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="#" target="_blank">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square link-icon"></i></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contect-title">
+                <p>Contact</p>
+                <h3>Wanna say something! Connect with Me Here! 👇🏻</h3>
+            </div>
+            <div class="contect-icon-box">
+                <div class="contect-icon">
+                    <span><i class="fa-solid fa-map-location-dot"></i></span>
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <a href="#">Bhopal, MP</a>
+                    </div>
+                </div>
+                <div class="contect-icon">
+                    <span><i class="fa-solid fa-envelope-open-text"></i></span>
+                    <div class="contact-info">
+                        <h3>Mail</h3>
+                        <a href="#">Ayushyadav@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footerc">
+                <h4>Copyright © 2023. All rights are reserved</h4>
+                <div class="f-icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const nav = document.querySelector(".mobile-nav");
+    function menuBtn() {
+        if (nav.className == "mobile-nav closed-menu") {
+            nav.className = "mobile-nav open-menu";
+        } else {
+            nav.className = "mobile-nav closed-menu";
+        }
+    }
+</script>
+
+</html>

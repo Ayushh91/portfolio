@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1020px){
+    .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .about-txt{
+        align-items: center;
+      }
+      .protfolio-box{
+        flex-direction: column;
+        width: fit-content;
+        gap: 2rem;
+      }
+      .project-grid{
+        justify-items: center;
+      }
+      .project-image{
+        width: 60vw;
+      }
+
+}
+@media only screen and (max-width: 900px)  {
+    .nav-links a{
+        display: none;
+    }
+    .mobile-menu {
+        display: flex;
+      }
+    .hero {
+        height: auto;
+        padding: 15rem 0;
+    }
+    .hero-main {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+    .skills {
+        flex-direction: column;
+        position: static;
+    }
+    .content {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+    
+    .skills p {
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        border-right: none;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        padding-right: 0;
+    }
+    .hero-txt img {
+        right: 3rem;
+    }
+    .hero-txt span{
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 750px){
+  .project-container,
+.contect-title{
+  text-align: center;
+}
+.contect-icon-box{
+  flex-direction: column;
+}
+.contect-icon{
+  flex-direction: column;
+}
+.contact-info{
+  align-items: center;
+}
+.footerc{
+  flex-direction: column;
+}
+}
+@media only screen and (max-width: 500px){
+    .hero-img {
+        height: 28rem;
+        width: 28rem;
+    }
+    .hero-text h1 {
+        font-size: 4rem;
+    }
+    .about-img img {
+        width: 35rem;
+    }
+    .protfolio-box{
+        flex-direction: column;
+        width: fit-content;
+        gap: 1rem;
+      }
+      .project-image{
+        width: 80vw;
+      }
+      .hero-text h1 {
+        font-size: 4rem;
+      }
+}
+@media (max-width: 460px) {
+    .hero-txt img {
+      right: 1rem;
+    }
+    .contact{
+        padding-top: 10rem;
+    }
+     .container {
+        padding: 0 1.7rem;
+      }
+  }
+  
